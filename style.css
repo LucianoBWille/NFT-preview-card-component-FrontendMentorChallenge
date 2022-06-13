@@ -19,7 +19,7 @@ body {
   width: 100vw;
   height: 100vh;
   /* background-image: url(./design/desktop-design.jpg); */
-  /* background-image: url(./design/mobile-design.jpg); */
+  background-image: url(./design/mobile-design.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--main-background);
@@ -34,11 +34,14 @@ body {
   top: 0;
   right: 0;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  text-align: center;
   color: var(--white);
   /* font-size: 11px; */
+}
+
+.attribution span{
+  display: block;
 }
 
 .attribution a {
@@ -47,9 +50,10 @@ body {
 
 .card {
   /* opacity: 0.5; */
-  width: 327px;
-  height: 543px;
+  max-width: 327px;
+  /* min-height: 543px; */
   padding: 24px;
+  margin: 24px;
   background-color: var(--card-background);
   border-radius: 18px;
   box-shadow: 0px 21px 47px rgba(0, 0, 0, 1);
@@ -175,12 +179,43 @@ body {
   letter-spacing: 0.1px;
 }
 
-@media screen and (max-width:500px) {
+@media (min-width: 400px) {
+  .card {
+    max-width: 352px;
+    /* min-height: 600px; */
+  }
+  .card h2 {
+    margin-top: 23px;
+  }
+  .card p {
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 1.6rem;
+  }
+  .card .priceDate {
+    margin-top: 22px;
+  }
+  .card .priceDate .price, .card .priceDate .date {
+    font-size: 17px;
+  }
+  .card .line {
+    margin-top: 24px;
+  }
+  .card .author p {
+    font-size: 16px;
+  }
+  .card .author p a {
+    letter-spacing: 0.2px;
+  }
+}
+
+@media screen and (min-width:500px) {
   .attribution {
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .attribution span{
-    display: block;
+    display: inline-block;
   }
 }
