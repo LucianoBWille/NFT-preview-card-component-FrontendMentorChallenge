@@ -19,9 +19,9 @@ body {
   width: 100vw;
   height: 100vh;
   /* background-image: url(./design/desktop-design.jpg); */
-  background-image: url(./design/mobile-design.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  /* background-image: url(./design/mobile-design.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
   background-color: var(--main-background);
   display:flex;
   justify-content: center;
