@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/LucianoBWille/NFT-preview-card-component-FrontendMentorChallenge
+- Live Site URL: https://lucianobwille.github.io/NFT-preview-card-component-FrontendMentorChallenge/
 - Figma: https://www.figma.com/file/yU58A9gruFZiJnUzLg6mZ2/NFT-preview-card-component-FrontendMentorChallenge?node-id=0%3A1
 
 ## My process
